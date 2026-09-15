@@ -10,6 +10,15 @@ npm run dev
 
 Откройте `http://localhost:5173`. Установка зависимостей не требуется. Для production-проверки используйте `npm run build && npm run preview`.
 
+## GitHub Pages
+
+Сборка использует относительные пути и работает как project site по адресу вида `https://<user>.github.io/-baby-sleep-tracker/`. Перед публикацией проверьте её командами:
+
+```bash
+npm run build
+npm run test:pages
+```
+
 ## Возможности
 
 - таймер «Уснул / Проснулся», восстанавливающийся после перезапуска;
